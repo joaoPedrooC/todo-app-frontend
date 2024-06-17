@@ -11,8 +11,16 @@
     gap: 4rem;
 
     & > img {
-      max-height: 550px;
+      display: none;
+
+      max-height: clamp(500px, 50vw, 550px);
       max-width: 566px;
+    }
+
+    @media (width >= 920px) {
+      & > img {
+        display: flex;
+      }
     }
   }
 }
