@@ -1,0 +1,17 @@
+@mixin font__poppins($font-weight: 600, $color: #000000 ) {
+  font-family: 'Poppins', sans-serif;
+  font-weight: $font-weight;
+  color: $color;
+}
+
+.title__primary {
+  font-size: clamp(1rem, 5vw, 2rem);
+  
+  @include font__poppins(600, var(--color-blue-primary));
+}
+
+.label {
+  font-size: clamp(.7rem, 5vw, 1rem);
+
+  @include font__poppins(400, var(--color-blue-primary))
+}
