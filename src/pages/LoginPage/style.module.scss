@@ -1,0 +1,18 @@
+.main {
+  height: 100vh;
+
+  & > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+
+    gap: 4rem;
+
+    & > img {
+      max-height: 550px;
+      max-width: 566px;
+    }
+  }
+}

@@ -4,7 +4,7 @@ import { LoginPage } from "../../pages/LoginPage/LoginPage"
 export const RoutesMain = () => {
   return (
     <Routes>
-      <Route path='/login' element={<LoginPage />} />
+      <Route path='/sign-in' element={<LoginPage />} />
     </Routes>
   )
 }

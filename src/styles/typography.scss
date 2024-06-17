@@ -10,8 +10,27 @@
   @include font__poppins(600, var(--color-blue-primary));
 }
 
+.title__secondary {
+  font-size: clamp(.8rem, 5vw, 1.2rem);
+
+  @include font__poppins(500, var(--color-blue-primary))
+}
+
+.font__regular {
+  font-size: clamp(.6rem, 5vw, 1rem);
+
+  @include font__poppins(400, var(--color-white))
+}
+
 .label {
   font-size: clamp(.7rem, 5vw, 1rem);
 
   @include font__poppins(400, var(--color-blue-primary))
+}
+
+.font__small--inter {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.75rem;
+
+  color: var(--color-white);
 }

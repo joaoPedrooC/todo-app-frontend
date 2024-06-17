@@ -1,0 +1,24 @@
+.input__container {
+  display: flex;
+  flex-direction: column;
+
+  gap: .15rem;
+
+  & > input {
+    outline-color: var(--color-blue-primary);
+    border: 2px solid transparent;
+
+    padding: 1rem .6rem;
+
+    height: 48px;
+    width: 100%;
+
+    border-radius: 6px;
+
+    font-family: 'Inter', sans-serif;
+
+    &:hover {
+      background-color: var(--color-white-tertiary);
+    }
+  }
+}
