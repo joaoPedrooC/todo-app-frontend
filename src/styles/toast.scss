@@ -1,0 +1,7 @@
+.toast {
+  & > div {
+    color: var(--color-white);
+    border: 1px solid var(--color-blue-primary);
+    background-color: var(--color-black-primary);
+  }
+}

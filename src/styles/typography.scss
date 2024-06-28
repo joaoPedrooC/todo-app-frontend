@@ -5,7 +5,7 @@
 }
 
 .title__primary {
-  font-size: clamp(1rem, 5vw, 2rem);
+  font-size: clamp(1.5rem, 5vw, 2rem);
   
   @include font__poppins(600, var(--color-blue-primary));
 }
