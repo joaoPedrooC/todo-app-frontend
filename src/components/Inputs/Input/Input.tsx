@@ -1,5 +1,4 @@
 import { Ref, forwardRef } from 'react';
-import { FieldError } from 'react-hook-form';
 
 import styles from './style.module.scss'
 

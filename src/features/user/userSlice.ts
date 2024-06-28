@@ -10,11 +10,11 @@ const userSlice = createSlice({
   initialState,
   reducers: {
     login: (state, action: PayloadAction<UserInterface>) => {
-      state = action.payload
+      state = { ...state, action }
     },
-    update: (state, action: PayloadAction<Partial<UserInterface>>) => {},
-    deleteUser: (state) => {},
-    getUser: (state, action: PayloadAction<UserInterface>) => {}
+    update: (_state, _action: PayloadAction<Partial<UserInterface>>) => {},
+    deleteUser: (_state) => {},
+    getUser: (_state, _action: PayloadAction<UserInterface>) => {}
   }
 })
 
