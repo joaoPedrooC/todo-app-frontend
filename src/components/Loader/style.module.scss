@@ -1,0 +1,46 @@
+.loader__container {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 100vh;
+  width: 100vw;
+
+  backdrop-filter: blur(24px);
+  background-color: rgba(11, 18, 21, .4);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 2rem;
+
+  & > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    & > img {
+      height: clamp(10rem, 20vw, 15rem);
+      width: clamp(10rem, 20vw, 15rem);
+      
+      animation: 5s cubic-bezier(0.445, 0.05, 0.55, 0.95) boat infinite;
+      
+      pointer-events: none;
+    }
+    
+    & > svg {
+      height: 5rem;
+      width: 5rem;
+      color: var(--color-blue-primary);
+
+      animation: 10s linear spin infinite reverse;
+    }
+  }
+}
+
+@keyframes boat {
+  0% { transform: rotateZ(-30deg) rotateY(180deg); }
+  50% { transform: rotateZ(10deg) rotateY(180deg); }
+  100% { transform: rotateZ(-30deg) rotateY(180deg); }
+}
