@@ -7,6 +7,7 @@ export const Loader = () => {
     <div className={styles.loader__container}>
       <div>
         <img src={merry} alt='Going Merry navigating' />
+        <div></div>
       </div>
     </div>
   )
