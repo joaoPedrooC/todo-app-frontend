@@ -11,7 +11,7 @@ export const loginThunk = (payload: UserLoginInterface, setLoading: React.Dispat
       localStorage.setItem('@todos:token', response.data.token)
       dispatch(login(response.data.data))
       setLoading(false)
-    }).finally(() => setLoading(true))
+    }).finally(() => setLoading(false))
   } catch (error: any) {
     console.log(error)
 
