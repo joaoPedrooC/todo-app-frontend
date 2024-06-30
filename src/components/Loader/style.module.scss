@@ -28,19 +28,11 @@
       
       pointer-events: none;
     }
-    
-    & > svg {
-      height: 5rem;
-      width: 5rem;
-      color: var(--color-blue-primary);
-
-      animation: 10s linear spin infinite reverse;
-    }
   }
 }
 
 @keyframes boat {
-  0% { transform: rotateZ(-30deg) rotateY(180deg); }
-  50% { transform: rotateZ(10deg) rotateY(180deg); }
-  100% { transform: rotateZ(-30deg) rotateY(180deg); }
+  0% { transform: rotateZ(-10deg) rotateY(180deg); }
+  50% { transform: rotateZ(0deg) rotateY(180deg); }
+  100% { transform: rotateZ(-10deg) rotateY(180deg); }
 }
