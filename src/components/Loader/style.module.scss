@@ -50,9 +50,9 @@
 }
 
 @keyframes boat {
-  0% { transform: rotateZ(-10deg) rotateY(180deg); }
-  50% { transform: rotateZ(0deg) rotateY(180deg); }
-  100% { transform: rotateZ(-10deg) rotateY(180deg); }
+  0% { transform: rotateZ(-10deg) rotateY(180deg) translateY(-10px); }
+  50% { transform: rotateZ(0deg) rotateY(180deg) translateY(0px); }
+  100% { transform: rotateZ(-10deg) rotateY(180deg) translateY(-10px); }
 }
 
 @keyframes spin {
