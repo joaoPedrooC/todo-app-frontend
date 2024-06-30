@@ -1,4 +1,4 @@
-import merry from '../../assets/sunny.png'
+import merry from '../../assets/merry.png'
 
 import styles from './style.module.scss'
 
