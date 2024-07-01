@@ -13,8 +13,11 @@
     & > img {
       display: none;
 
-      max-height: clamp(500px, 50vw, 550px);
-      max-width: 566px;
+      height: clamp(350px, 35vw, 505px);
+      width: clamp(350px, 35vw, 505px);
+
+      filter: drop-shadow(10px 10px 120px var(--color-blue-primary));
+      z-index: -1;
     }
 
     @media (width >= 920px) {
