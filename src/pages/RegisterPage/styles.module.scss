@@ -6,17 +6,17 @@
     justify-content: center;
     align-items: center;
 
-    height: 100%;
-
     gap: 4rem;
+    
+    height: 100%;
 
     & > img {
       display: none;
 
-      height: clamp(350px, 35vw, 505px);
-      width: clamp(350px, 35vw, 505px);
+      height: clamp(350px, 40vw, 505px);
+      width: clamp(350px, 40vw, 505px);
 
-      filter: drop-shadow(5px 3.3px 0px var(--color-blue-primary));
+      filter: drop-shadow(-3px 2px 0px var(--color-blue-primary));
       z-index: -1;
     }
 

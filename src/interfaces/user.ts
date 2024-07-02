@@ -13,3 +13,9 @@ export interface UserLoginInterface {
   email: string
   password: string
 }
+
+export interface UserRegisterInterface {
+  name: string
+  email: string
+  password: string
+}
